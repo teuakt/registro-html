@@ -1,0 +1,168 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 400;
+
+  color: #323730;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 37px;
+  color: #3f3d56;
+  margin-bottom: 22px;
+}
+
+.input-boxes {
+  width: 396;
+  height: 47;
+  padding: 14px;
+  border: 1px solid #abb3a8;
+  margin-top: 4px;
+}
+
+.name-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.date-country-box {
+  display: flex;
+  width: 396;
+  margin-bottom: 22;
+}
+
+.date-input-box {
+  width: 170;
+  height: 47;
+  padding: 14px;
+  border: 1px solid #abb3a8;
+  margin-top: 9px;
+}
+
+.country-select-box {
+  width: 208;
+  height: 47;
+  padding: 14px;
+  border: 1px solid #abb3a8;
+  margin-top: 9px;
+}
+
+.gender-box {
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-end;
+  width: 396;
+  margin-bottom: 22;
+}
+
+.gender-radio-input {
+  width: 18;
+  height: 18;
+  border: 1px solid #abb3a8;
+  margin-top: 8;
+  margin-right: 6px;
+}
+
+.gender-masc-label {
+  margin-right: 40px;
+}
+
+.gender-fem-label {
+  margin-right: 40px;
+}
+
+.email-pass-boxes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.eula-box {
+  display: flex;
+  flex-direction: row;
+  width: 396;
+  margin-bottom: 28px;
+}
+
+.eula-checkbox {
+  width: 18;
+  height: 18;
+  border: 1px solid #abb3a8;
+  margin-right: 10px;
+}
+
+.register-button {
+  width: 396;
+  height: 47;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #3f3d56;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-email-pass-boxes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 39px;
+  }
+
+.login-email-pass-input {
+  width: 515;
+  height: 47;
+  padding: 14px;
+  border: 1px solid #abb3a8;
+  margin-top: 4px;
+}
+
+.post-pass-box {
+  display: flex;
+  flex-direction: row;
+  width: 515;
+  margin-bottom: 31px;
+}
+
+.forgot-pass{
+    margin-left: 155px;
+}
+
+.login-button {
+  width: 515;
+  height: 47;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #3f3d56;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.be-safe-box {
+    display: flex;
+    justify-content: center;
+    flex-direction:initial;
+    align-items: center;
+    width: 396px;
+    margin-top: 9px;
+    margin-bottom: 28px;
+}
+
+.link-color{
+    color: #1DB9E0;
+}

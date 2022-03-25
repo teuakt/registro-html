@@ -1,0 +1,88 @@
+<head>
+    <title>Aula - 2 - Formulário</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link 
+        rel="stylesheet" 
+        href="./styles.css" 
+    />
+
+</head>
+
+
+<body>
+  <form>
+      <h1 class="title">Faça seu cadastro</h1>
+      <div class="name-box">
+        <label for="name-input">Nome Completo: </label>
+        <input class="input-boxes" id="name-input" type="text" placeholder="Digite seu nome completo">
+      </div>
+
+      <div class="date-country-box"> 
+        <div>
+          <label for="date-input">Data de nascimento: </label>
+          <input class="date-input-box" id="date-input" type="date" >
+        </div>
+
+        <div> 
+          <label for="country-input">País: </label>
+          <select class="country-select-box" id="country-input">
+            <option disabled selected>Selecionar</option>
+            <option>Brasil</option>
+            <option>Argentina</option>
+            <option>Uruguai</option>
+          </select>
+        </div> 
+      </div>
+
+      <div > 
+        <label>Gênero: </label>
+        <div class="gender-box">
+          <input class="gender-radio-input" name="genero" id="masc-label" type="radio">
+          <label class="gender-masc-label" for="masc-label" >Masculino </label>
+          <input class="gender-radio-input" name="genero" id="fem-label" type="radio">
+          <label class="gender-fem-label" for="fem-label" >Feminino </label>
+          <input class="gender-radio-input" name="genero" id="none-label" type="radio">
+          <label for="none-label" >Não declarar </label>
+        </div>
+      </div> 
+
+      <div class="email-pass-boxes"> 
+        <label for="email-input">E-mail: </label>
+        <input class="input-boxes" id="email-input" type="email" placeholder="Digite seu e-mail">
+      </div>
+
+      <div class="email-pass-boxes">
+        <label for="password-input">Senha: </label>
+        <input class="input-boxes" id="password-input" type="password" placeholder="Crie sua senha">
+      </div>
+
+      <div class="email-pass-boxes">
+        <label for="pass-confirm-input">Confirme sua senha: </label>
+        <input class="input-boxes" id="pass-confirm-input" type="password" placeholder="Confirmar senha">
+      </div>
+
+      <div class="eula-box">
+        <div>
+          <input class="eula-checkbox" id="eula" type="checkbox">
+        </div>
+        <div>
+          <label for="eula">
+             Aceito os <a target="_blank" rel="nofollow" href="eula.html" class="link-color">termos e condições</a>
+             e concordo com as <a target="_blank" rel="nofollow" href="lgpd.html" class="link-color">políticas de privacidade</a>
+             do Hall To Code.
+          </label>     
+        </div>  
+      </div>
+    
+      <button class="register-button">Cadastrar</button>
+
+      <div>
+        <label>Já tem uma conta no How to code? <a target="_blank" rel="nofollow" href="login.html" class="link-color"> Entre agora </a>
+        </label>
+      </div>
+  </form>
+</body>
